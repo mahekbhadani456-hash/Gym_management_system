@@ -3,10 +3,8 @@
 # Backend .env file
 cat > backend/.env << EOF
 PORT=5000
-MONGODB_URI=mongodb://localhost:27017/gym_management
-JWT_SECRET=my_super_secret_jwt_key_change_this_in_production_12345
-NODE_ENV=development
-EOF
+
+
 
 # Frontend .env file
 cat > frontend/.env << EOF
